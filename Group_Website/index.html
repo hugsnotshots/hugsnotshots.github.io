@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hugs, Not Shots</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+*****
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+*****
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+/* Full height image header with professional dark overlay */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("protestors.webp");
+  min-height: 100%;
+}
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+.hugs {
+  font-size: 5.5rem;
+  line-height: 1.1;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  
+  /* This creates a much stronger, deeper gradient transition from pure white to intense red */
+  background: linear-gradient(135deg, #ffffff 20%, #ff3333 55%, #990000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  /* Adds a subtle crisp shadow behind the transparent text layer to separate it from the poster background */
+  filter: drop-shadow(2px 4px 10px rgba(0, 0, 0, 0.7));
+}
+
+.bullet {
+  color: #f0f0f0;
+  font-size: 1.5rem; 
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+  margin-top: 15px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">
+    GUN VIOLENCE
+   </a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-question-circle"></i> WHY?</a>
+<a href="#team" class="w3-bar-item w3-button"><i class="fa fa-users"></i> VICTIMS</a>
+<a href="#work" class="w3-bar-item w3-button"><i class="fa fa-exclamation-triangle"></i> HARM CAUSED</a>
+<a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-heart"></i> DONATE</a>
+<a href="#blueprint" class="w3-bar-item w3-button"><i class="fa fa-map"></i> OUR BLUEPRINT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">WHY?</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">VICTIMS</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">HARM CAUSED</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">DONATE</a>
+  <a href="#blueprint" onclick="w3_close()" class="w3-bar-item w3-button">OUR BLUEPRINT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo"> <h1 class="hugs">HUGS,  <br>NOT SHOTS</h1>
+<h4 class="bullet">People deserve a hug, not a bullet.</h4>
+</span>
+<a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Make a change today</a>
+    
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT OUR ORGANIZATION</h3>
+  <p class="w3-center w3-large"> Our organization aims to spread awareness on the dangers of gun violence, specifically in men aged 16-26. We strive to create a safer environment where parents are not afraid to let their children roam free. The mortality rate is high, and the consequences of gun violence do not allow for second chances; however, this does not have to be the case. Together, we can put an end to it. </p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-exclamation-triangle w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">GUN RELATED DEATHS/INJURIES</p>
+      <p>“Gun violence is the number one killer of children in Tennessee, taking more lives than car accidents.”- safertn.org </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-institution w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">SCHOOL SHOOTINGS</p>
+      <p>More than 43,000 children were exposed to gunfire in 2022 at school. School is a place where children should have a safe learning environment, not a place of fear. </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-male w3-margin-bottom w3-jumbo w3-center"></i>
+<p class="w3-large">SUICIDES</p>
+      <p>Suicides are the main perpetrator in the fight against gun violence, while guns cause the most suicides.
+</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">MAKE A CHANGE</p>
+      <p>We need you! Make a change, not just in your community, but throughout the whole world. Be an example, put the gun down.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>GUN RELATED DEATHS/INJURIES.</h3>
+      <p>Injuries and fatalities from firearms remain a major public health concern in the US. All communities are impacted by firearm violence and injuries, although some groups are more likely than others to sustain a firearm injury. Whole communities' perception of safety and security can be impacted by shooting occurrences, whether they take place in homes, schools, places of worship, businesses, retail establishments, on the street, or at communal gatherings. These tragedies can also influence daily decisions. </p>
+      <p><a href="#team" class="w3-button w3-black"><i class="fa fa-th"> </i> VICTIMS</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="guninjuriesdeaths.jpg" alt="Buildings" width="500" height="285">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">VICTIMS</h3>
+<p class="w3-center w3-large w3-text-gray" style="max-width:700px; margin: 0 auto 32px auto;">Behind every statistic is a face, a family, and a story cut short. These are the real lives we are fighting to protect.</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+ <div class="w3-col l3 m6 w3-margin-bottom">
+  <div class="w3-card">
+    <img src="AnthonyBerges.jpg" alt="Anthony Borges" style="width:100%">
+    <div class="w3-container" style="padding-top:8px; padding-bottom:16px;">
+      <h3>Anthony Borges</h3>
+      <p class="w3-opacity" style="margin:0;">Student</p>
+      <p style="margin-top:8px; line-height:1.5;">Anthony was shot five times after he used his body to barricade the door of a classroom where twenty students were inside during the Parkland HS Shooting.</p>
+    </div>
+  </div>
+</div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="TrinityGay.jpg" alt="Trinity Gay" style="width:100%">
+        <div class="w3-container">
+          <h3>Trinity Gay</h3>
+          <p class="w3-opacity">Child</p>
+          <p>Trinity was tragically killed in a shooting outside a restaurant in Lexington, Kentucky, in 2016 due to crossfire between two vehicles. She was shot in the neck and later died at the University of Kentucky Medical Center. </p>
+          <p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="stevenboss.jpg" alt="Steven twitch boss" style="width:100%">
+        <div class="w3-container">
+          <h3>Stephen "Twitch" Boss</h3>
+          <p class="w3-opacity">Actor & DJ</p>
+          <p>Stephen brought energy, positivity, and creativity to millions of viewers, but on December 13, 2022, he tragically died by suicide from a self-inflicted gunshot wound at the age of 40. </p>
+          <p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="ermias_joseph_asghedom.jpg" alt="Ermias Asghedom" style="width:100%">
+        <div class="w3-container">
+          <h3>Ermias Asghedom</h3>
+          <p class="w3-opacity">Rapper</p>
+          <p>Ermias was shot outside his store after an argument with Eric Holder, who was later sentenced to 60 years in prison.</p>
+          <p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">2,526</span>
+    <br>children and teens
+ died by a firearm in 2022
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">23</span>
+    <br>US school shootings in 2025
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">59%</span>
+    <br>of gun deaths are suicides
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">105</span>
+    <br>children and teen gun deaths in TN per year
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">SCHOOL SHOOTINGS</h3>
+  <p class="w3-center w3-large">The damage caused</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="sandyhookshooting.png.crdownload" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sandy Hook Elementary School Shooting">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="parklandshooting.png.crdownload" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Parkland High School Shooting">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="perryshooting.png.crdownload" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Perry High School Shooting">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="apalacheeshooting.png.crdownload" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Apalachee Elementary School Shooting">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="robbshooting.png.crdownload" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Robb Elementary Shooting">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="santafeshooting.png.crdownload" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Santa Fe High School Shooting">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="covenantshooting.png.crdownload" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The Covenant School Shooting">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="antiochshooting.png.crdownload" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Antioch High School Shooting">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>SUICIDES</h3>
+      <p>Suicide is defined as death caused by self-directed injurious behavior with intent to die because of the behavior. Firearm suicide rates are at record high levels. With such easy access to firearms, suicides are becoming more impulsive than ever. Firearm suicides have a devastating impact on the safety and well-being of Americans.</p>
+<div class="w3-row-padding w3-center" style="margin-top:24px;">
+  <div class="w3-half w3-margin-bottom">
+    <div class="w3-container w3-round-large w3-padding-32" style="background-color:#1c4e6b; color:white; min-height:220px; border-radius:16px !important;">
+      <h3 style="font-size:4.5rem; font-weight:800; margin:0; font-family:'Roboto', sans-serif;">20%</h3>
+      <p style="font-size:1.1rem; font-weight:400; margin-top:8px; line-height:1.4; font-family:'Roboto', sans-serif;">of teens have seriously considered committing suicide.</p>
+    </div>
+  </div>
+
+  <div class="w3-half w3-margin-bottom">
+    <div class="w3-container w3-round-large w3-padding-32" style="background-color:#1c4e6b; color:white; min-height:220px; border-radius:16px !important;">
+      <h3 style="font-size:4.5rem; font-weight:800; margin:0; font-family:'Roboto', sans-serif;">10%</h3>
+      <p style="font-size:1.1rem; font-weight:400; margin-top:8px; line-height:1.4; font-family:'Roboto', sans-serif;">of teens have seriously attempted suicide.</p>
+    </div>
+  </div>
+</div>
+    </div>
+    <div class="w3-col m6">
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+<iframe src="https://ourworldindata.org/grapher/number-of-deaths-from-suicide-ghe?tab=map" loading="lazy" style="width: 100%; height: 500px; border: 0px none;" allow="web-share; clipboard-write"></iframe>
+      </div>
+</div>
+</div>
+
+<!-- Pricing Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:100px 50px" id="pricing">
+  <h3>DONATE</h3>
+  <p class="w3-large">What YOU can do to help!</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Sandy Hook Promise</li>
+        <li class="w3-padding-16"><b>sandyhookpromise.org</b> </li>
+        <li class="w3-padding-16"><b>School Shooting Inspired</b> </li>
+        <li class="w3-padding-16"><b>Focuses on schools</b> </li>
+        <li class="w3-padding-16"><b>Nonprofit Organization</b></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ ANY</h2>
+          <span class="w3-opacity">Any contribution helps!</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large" onclick="window.location.href='https://takeaction.sandyhookpromise.org/a/foundation?amtOpts=25,50,100,250,500,1000&_ga=2.171984867.1389563593.1750255721-647714739.1750255721'">DONATE</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-red w3-xlarge w3-padding-48">Safer TN</li>
+        <li class="w3-padding-16"><b>safertn.org</b> </li>
+        <li class="w3-padding-16"><b>Advancing Firearm Safety Policies</b> </li>
+        <li class="w3-padding-16"><b>Building Safer Communities</b></li>
+        <li class="w3-padding-16"><b>Nonprofit Organization</b></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ ANY</h2>
+          <span class="w3-opacity">Any contribution helps!</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large" onclick="window.location.href='https://safertn.org/donate/'">DONATE</button>
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-section">
+      <ul class="w3-ul w3-white w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Giffords</li>
+        <li class="w3-padding-16"><b>giffords.org</b></li>
+        <li class="w3-padding-16"><b>Saving Lives From Gun Violence</b></li>
+        <li class="w3-padding-16"><b>Cover all aspects of gun violence</b></li>
+        <li class="w3-padding-16"><b>Strive to unite</b></li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ ANY</h2>
+          <span class="w3-opacity">Any contribution helps!</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-black w3-padding-large" onclick="window.location.href='https://secure.actblue.com/donate/giffords-website?refcode=site_top_nav'">DONATE</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-content w3-padding-64" style="max-width:1000px" id="blueprint">
+  <h2 class="w3-wide w3-center">OUR BLUEPRINT</h2>
+  <p class="w3-opacity w3-center"><i>Here is what happens when you donate to these organizations</i></p>
+  
+  <div class="blueprint-container">
+    
+    <div class="blueprint-card">
+      <div class="blueprint-badge">Impact 1</div>
+      <div class="blueprint-icon-circle">
+        <i class="fa fa-graduation-cap" style="font-size:36px; color:#000;"></i>
+      </div>
+      <h3>Sandy Hook Promise</h3>
+      <p>Your support directly funds Know the Signs programs, training students and educators to recognize early warning signs of chronic social isolation or potential school crises before violence happens.</p>
+    </div>
+
+    <div class="blueprint-arrow">
+      <i class="fa fa-chevron-right"></i>
+    </div>
+
+    <div class="blueprint-card">
+      <div class="blueprint-badge">Impact 2</div>
+      <div class="blueprint-icon-circle">
+        <i class="fa fa-university" style="font-size:36px; color:#000;"></i>
+      </div>
+      <h3>Safer TN</h3>
+      <p>Your donation helps advance evidence-based firearm safety policies locally. They work to bridge gaps between gun owners and non-owners to push forward practical, lifesaving Tennessee laws.</p>
+    </div>
+
+    <div class="blueprint-arrow">
+      <i class="fa fa-chevron-right"></i>
+    </div>
+
+    <div class="blueprint-card">
+      <div class="blueprint-badge">Impact 3</div>
+      <div class="blueprint-icon-circle">
+        <i class="fa fa-users" style="font-size:36px; color:#000;"></i>
+      </div>
+      <h3>Giffords</h3>
+      <p>Funds community violence intervention programs across the country. They fight the crisis from all legal angles, holding the gun lobby accountable and defending commonsense state statutes.</p>
+    </div>
+
+  </div>
+</div>
+
+<style>
+  .blueprint-container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; margin-top: 40px; padding: 0 10px; }
+  .blueprint-card { background: #ffffff; border: 1px solid #e0e0e0; border-radius: 8px; padding: 30px 20px; width: 28%; text-align: center; position: relative; box-shadow: 0 4px 10px rgba(0,0,0,0.06); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+  .blueprint-card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.12); }
+  .blueprint-badge { position: absolute; top: -13px; left: 50%; transform: translateX(-50%); background: #000000; color: #ffffff; padding: 2px 14px; border-radius: 20px; font-size: 11px; font-weight: bold; text-transform: uppercase; letter-spacing: 1px; }
+  .blueprint-icon-circle { width: 70px; height: 70px; background: #fdfdfd; border: 1px solid #eaeaea; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 5px auto 20px auto; }
+  .blueprint-card h3 { font-weight: 600; margin-bottom: 12px; font-size: 1.2rem; color: #000; }
+  .blueprint-card p { font-size: 13.5px; color: #555; line-height: 1.6; margin: 0; }
+  .blueprint-arrow { width: 4%; text-align: center; color: #ccc; font-size: 20px; animation: blueprintPulse 2s infinite; }
+  @keyframes blueprintPulse { 0% { transform: translateX(0); opacity: 0.4; } 50% { transform: translateX(4px); opacity: 1; } 100% { transform: translateX(0); opacity: 0.4; } }
+  @media (max-width: 850px) { .blueprint-container { flex-direction: column; } .blueprint-card { width: 100%; margin-bottom: 35px; } .blueprint-arrow { width: 100%; margin-bottom: 35px; transform: rotate(90deg); animation: none; } }
+</style>
+      <h1>SOURCES:</h1>
+<a href="https://www.pewresearch.org/short-reads/2025/03/05/what-the-data-says-about-gun-deaths-in-the-us/">Pewresearch.org</a>
+<div>
+      <a href="https://ourworldindata.org/grapher/number-of-deaths-from-suicide-ghe">Ourworldindata.org</a>
+<div>
+<a href="https://www.britannica.com/topic/school-shooting">Britanica.com</a>
+<div>
+<a href="https://www.cdc.gov/firearm-violence/data-research/facts-stats/index.html">CDC.gov</a>
+<div>
+<a href="https://k12ssdb.org/all-shootings">K12ssdb.org</a>
+<div>
+<a href="https://publichealth.jhu.edu/center-for-gun-violence-solutions/annual-gun-violence-data">Publichealth.jhu.edu</a>
+<div>
+<a href="https://safertn.org/join-the-coalition/">Safertn.org</a>
+<div>
+      
+       
+    <!-- Image of location/map -->
+    <img src="Hugsnotshots.png" class="w3-image" style="max-width:100%; height:auto; display:block; margin:32px auto 0 auto;">
+  </div>
+</div>
+<div class="w3-container w3-padding-64 w3-center">
+  <h2>Our Crew</h2>
+  <p class="w3-large">This awareness campaign was developed by:</p>
+  <div style="margin-top:20px">
+    <p><b>George Lous • Arieanna Lillard • William Paxton • Elkyn Rodríguez</b></p>
+    <p><i>Gun Violence Awareness Project – 2025</i></p>
+  </div>
+</div>
+
+<footer class="w3-center w3-black w3-padding-48">
+  <a href="#home" class="w3-button w3-light-grey w3-round"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  
+  <div class="w3-medium w3-section" style="margin-top:24px; letter-spacing: 1px; color: #aaa;">
+    <p><b>Hugs, Not Shots Awareness Campaign</b></p>
+    <p class="w3-small" style="color: #666;">Developed for Belmont University • Gun Violence Awareness Project</p>
+  </div>
+</footer>
+
+</body>
+</html>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48">
+  <a href="#home" class="w3-button w3-light-grey w3-round"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  
+  <div class="w3-medium w3-section" style="margin-top:24px; letter-spacing: 1px; color: #aaa;">
+    <p><b>Hugs, Not Shots Awareness Campaign</b></p>
+    <p class="w3-small" style="color: #666;">Developed for Belmont University You • Gun Violence Awareness Project</p>
+  </div>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
